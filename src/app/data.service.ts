@@ -7,7 +7,7 @@ import { catchError, map } from 'rxjs/operators';
   providedIn: 'root',
 })
 export class DataService {
-  private url = 'https://json-server-eight-omega.vercel.app/games.json';
+  private url = 'https://json-server-eight-omega.vercel.app/games';
 
   constructor(private http: HttpClient) {}
 
